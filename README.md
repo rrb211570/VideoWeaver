@@ -7,7 +7,7 @@ VideoWeaver is a React component that allows you to do video editing.
 * API's to download/upload content via Drive, Dropbox, and desktop
 * Can upload edited videos to your YouTube channel in a single click
 
-The goal of this project is to make it a LOT easier to create tech demos and prepare for LeetCode interviews, by having all of the work done in one place. Rather than work through separate products to record videos and edit them, this component will handle everything for you, and for free!
+The goal of this project is to make it a LOT easier to create tech demos and prepare for LeetCode interviews, by having all of the work done in one place. Rather than work through separate products to record videos and edit them, this component will handle everything for you, and it's free!
 
 ## Installation
 You can import VideoWeaver into an existing React project, by using npm.
