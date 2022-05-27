@@ -9,7 +9,7 @@ VideoWeaver is a React component that allows you to do video editing. I wanted t
 * Can download/upload content via Drive, Dropbox, and desktop
 * Can upload edited videos to your YouTube channel in a single click
 
-## Installation
+## Installation (doesn't work yet, product under development)
 You can import VideoWeaver into an existing React project, by using npm.
 
 npm install videoweaver [features]
