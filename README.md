@@ -31,7 +31,7 @@ We're trying to yield as many use cases for VideoWeaver as possible, so you can 
 
 ## Documentation
 
-See [documentation] to learn more about the current architecture, supported feature-set, code organization, and how to reuse upload/download functionalities.
+See [documentation](https://github.com/rrb211570/VideoWeaver/blob/main/documentation.md) to learn more about the current architecture, supported feature-set, code organization, and how to reuse upload/download functionalities.
     
 ## Contributing
 
