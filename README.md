@@ -21,7 +21,7 @@ npm install videoweaver [features]
 -s : functionality to upload/download from Drive, DropBox, and desktop  
 -y : functionality to upload to YouTube channel  
 
-Note: No flags will default to include all features
+Note: Omitting flags will default to include all features
 
 Ex. npm install videoweaver -mcv  
 &emsp;&ensp;npm install videoweaver -s  
