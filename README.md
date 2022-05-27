@@ -37,8 +37,5 @@ We expect contributors to adhere to the [code of conduct](https://github.com/rrb
 
 Check out our [contributing guide](https://github.com/rrb211570/VideoWeaver/blob/main/ContributingGuide.md) to learn more about our process and how you can become a contributor.
 
-* Discord: We're using this to coordinate development, and hang out from time to time. Check us out if you want to become a contributor!
-* Feature Roadmap
-
 # License
 VideoWeaver is [MIT licensed](https://github.com/rrb211570/VideoWeaver/blob/main/LICENSE)
