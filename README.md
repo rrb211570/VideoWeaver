@@ -1,1 +1,44 @@
-# VideoWeaver
+# VideoWeaver [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+VideoWeaver is a React component that allows you to do video editing.
+* MomentMaker: Can record screen and capture audio input to produce a video (useful for making tech demos and LeetCode VOD review)
+* Content editing stage: Edit individual video, picture, and audio files
+* Video editing stage: Combine different media sources into an output video
+* API's to download/upload content via Drive, Dropbox, and desktop
+* Can upload edited videos to your YouTube channel in a single click
+
+# Installation
+You can import VideoWeaver into an existing React project, by using npm.
+
+npm install videoweaver [features]
+
+[features]:
+-m : MomentMaker
+-c : Content editor
+-v : video editor
+-s : API's to upload/download from storage
+-y : API to upload to YouTube channel
+
+Note: No flags defaults to downloading package with all features
+
+Ex. npm install videoweaver -mcv
+    npm install videoweaver -s
+    npm install videoweaver  // installs all features
+    
+All you need to do next is to instantiate VideoWeaverPanel, host your project, and you're ready to start video editing!
+
+You'll notice that you are able to import very basic features that can be channelled towards making a completely different product; this is to yield as many use cases from VideoWeaver as possible.
+    
+# Contributing
+
+The goal of this project is to make it a LOT easier to create tech demos and prepare for LeetCode interviews, by having all of the work done in one place, and for free!. Rather than work through separate products to record videos, edit them, and figure out hosting, this component will handle everything for you, and at no cost. 
+
+# Code of Conduct
+
+# Contributing Guide
+Read our 
+* Discord: We're using this to coordinate development, and hang out from time to time. Check us out if you want to become a contributor!
+* Feature Roadmap
+
+# License
+VideoWeaver is [MIT licensed](https://github.com/rrb211570/VideoWeaver/blob/main/LICENSE)
