@@ -8,10 +8,11 @@ Once we reach a stable release, most contributions can be done via pull requests
 
 ## Semantic Versioning
 
-VideoWeaver follows semantic versioning. We release patch versions for critical bugfixes, minor versions for new features or non-essential changes, and major versions for any breaking changes. When we make breaking changes, we also introduce deprecation warnings in a minor version so that our users learn about the upcoming changes and migrate their code in advance. Learn more about our commitment to stability and incremental migration in our versioning policy.
+VideoWeaver follows semantic versioning. We release patch versions for critical bugfixes, minor versions for new features or non-essential changes, and major versions for any breaking changes. When we make breaking changes, we also introduce deprecation warnings in a minor version so that our users learn about the upcoming changes and migrate their code in advance.
 
 Every significant change is documented in the changelog file.
-Branch Organization
+
+## Branch Organization
 
 Submit all changes directly to the main branch. We don’t use separate branches for development or for upcoming releases. We do our best to keep main in good shape, with all tests passing.
 
@@ -23,8 +24,7 @@ To keep the main branch in a releasable state, breaking changes and experimental
 
 Feature flags are defined in packages/shared/ReactFeatureFlags.js. Some builds of React may enable different sets of feature flags; for example, the React Native build may be configured differently than React DOM. These flags are found in packages/shared/forks. Feature flags are statically typed by Flow, so you can run yarn flow to confirm that you’ve updated all the necessary files.
 
-React’s build system will strip out disabled feature branches before publishing. A continuous integration job runs on every commit to check for changes in bundle size. You can use the change in size as a signal that a feature was gated correctly.
-Bugs
+VideoWeaver’s build system will strip out disabled feature branches before publishing. A continuous integration job runs on every commit to check for changes in bundle size. You can use the change in size as a signal that a feature was gated correctly.
 
 ## Where to Find Known Issues
 
@@ -32,7 +32,7 @@ We are using GitHub Issues for our public bugs. We keep a close eye on this and 
 
 ## Reporting New Issues
 
-The best way to get your bug fixed is to provide a reduced test case. This JSFiddle template is a great starting point.
+The best way to get your bug fixed is to submit the bug description w/ steps to reproduce the bug, in Discord.
 
 ## Proposing a Change
 
@@ -67,32 +67,30 @@ Before submitting a pull request, please make sure the following is done:
     Run the Flow typechecks (yarn flow).
     If you haven’t already, complete the CLA.
 
-Contributor License Agreement (CLA)
+## Contributor License Agreement (CLA)
 
-In order to accept your pull request, we need you to submit a CLA. You only need to do this once, so if you’ve done this for another Facebook open source project, you’re good to go. If you are submitting a pull request for the first time, just let us know that you have completed the CLA and we can cross-check with your GitHub username.
+In order for us to accept your first pull request, we need you to submit a CLA, and let us know that you've submitted it. We can cross-check with your GitHub username to confirm we've received it.
 
 Complete your CLA here.
 Contribution Prerequisites
 
-    You have Node installed at LTS and Yarn at v1.2.0+.
-    You have JDK installed.
-    You have gcc installed or are comfortable installing a compiler if needed. Some of our dependencies may require a compilation step. On OS X, the Xcode Command Line Tools will cover this. On Ubuntu, apt-get install build-essential will install the required packages. Similar commands should work on other Linux distros. Windows will require some additional steps, see the node-gyp installation instructions for details.
+    You have installed npm at 8.3.0+ and Yarn at v1.2.0+, and know how to work with React components.
     You are familiar with Git.
 
-Development Workflow
+## Development Workflow
 
-After cloning React, run yarn to fetch its dependencies. Then, you can run several commands:
+After cloning VideoWeaver, run yarn to fetch its dependencies. Then, you can run several commands:
 
-    yarn lint checks the code style.
-    yarn linc is like yarn lint but faster because it only checks files that differ in your branch.
-    yarn test runs the complete test suite.
-    yarn test --watch runs an interactive test watcher.
-    yarn test --prod runs tests in the production environment.
-    yarn test <pattern> runs tests with matching filenames.
-    yarn debug-test is just like yarn test but with a debugger. Open chrome://inspect and press “Inspect”.
-    yarn flow runs the Flow typechecks.
-    yarn build creates a build folder with all the packages.
-    yarn build react/index,react-dom/index --type=UMD creates UMD builds of just React and ReactDOM.
+* yarn lint checks the code style.
+* yarn linc is like yarn lint but faster because it only checks files that differ in your branch.
+* yarn test runs the complete test suite.
+* yarn test --watch runs an interactive test watcher.
+* yarn test --prod runs tests in the production environment.
+* yarn test <pattern> runs tests with matching filenames.
+* yarn debug-test is just like yarn test but with a debugger. Open chrome://inspect and press “Inspect”.
+* yarn flow runs the Flow typechecks.
+* yarn build creates a build folder with all the packages.
+* yarn build react/index,react-dom/index --type=UMD creates UMD builds of just React and ReactDOM.
 
 We recommend running yarn test (or its variations above) to make sure you don’t introduce any regressions as you work on your change. However, it can be handy to try your build of React in a real project.
 
@@ -104,16 +102,16 @@ If you want to try your changes in your existing React project, you may copy bui
 
 If your project uses React from npm, you may delete react and react-dom in its dependencies and use yarn link to point them to your local build folder. Note that instead of --type=UMD you’ll want to pass --type=NODE when building. You’ll also need to build the scheduler package:
 
-cd ~/path_to_your_react_clone/
-yarn build react/index,react/jsx,react-dom/index,scheduler --type=NODE
+    cd ~/path_to_your_react_clone/
+    yarn build react/index,react/jsx,react-dom/index,scheduler --type=NODE
 
-cd build/node_modules/react
-yarn link
-cd build/node_modules/react-dom
-yarn link
+    cd build/node_modules/react
+    yarn link
+    cd build/node_modules/react-dom
+    yarn link
 
-cd ~/path/to/your/project
-yarn link react react-dom
+    cd ~/path/to/your/project
+    yarn link react react-dom
 
 Every time you run yarn build in the React folder, the updated versions will appear in your project’s node_modules. You can then rebuild your project to try your changes.
 
@@ -127,13 +125,15 @@ We use an automatic code formatter called Prettier. Run yarn prettier after maki
 Then, our linter will catch most issues that may exist in your code. You can check the status of your code styling by simply running yarn linc.
 
 However, there are still some styles that the linter cannot pick up. If you are unsure about something, looking at Airbnb’s Style Guide will guide you in the right direction.
-Request for Comments (RFC)
+    
+## Request for Comments (RFC)
 
 Many changes, including bug fixes and documentation improvements can be implemented and reviewed via the normal GitHub pull request workflow.
 
-Some changes though are “substantial”, and we ask that these be put through a bit of a design process and produce a consensus among the React core team.
+Some changes though are “substantial”, and we ask that these be put through a bit of a design process.
 
-The “RFC” (request for comments) process is intended to provide a consistent and controlled path for new features to enter the project. You can contribute by visiting the rfcs repository.
-License
+The “RFC” (request for comments) process is intended to provide a consistent and controlled path for new features to enter the project. You can contribute by visiting the Discord.
+    
+## License
 
 By contributing to React, you agree that your contributions will be licensed under its MIT license.
