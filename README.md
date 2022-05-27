@@ -9,7 +9,7 @@ VideoWeaver is a React component that allows you to do video editing.
 
 The goal of this project is to make it a LOT easier to create tech demos and prepare for LeetCode interviews, by having all of the work done in one place. Rather than work through separate products to record videos, edit them, and figure out hosting, this component will handle everything for you, and at no cost!
 
-# Installation
+## Installation
 You can import VideoWeaver into an existing React project, by using npm.
 
 npm install videoweaver [features]
@@ -23,20 +23,18 @@ npm install videoweaver [features]
 
 Note: No flags defaults to downloading package with all features
 
-Ex. npm install videoweaver -mcv  
+<pre>Ex. npm install videoweaver -mcv  
     npm install videoweaver -s  
-    npm install videoweaver  // installs all features  
+    npm install videoweaver  // installs all features</pre>
     
 All you need to do next is to instantiate VideoWeaverPanel, host your project, and you're ready to start video editing!
 
 You'll notice that you are able to import very basic features that can be channelled towards making a completely different product; this is to yield as many use cases from VideoWeaver as possible.
     
-# Contributing
+## Contributing
 
-# Code of Conduct
+We expect contributors to adhere to the [code of conduct]. Check out our [contributing guide] to learn more about our process and how you can become a contributor.
 
-# Contributing Guide
-Read our 
 * Discord: We're using this to coordinate development, and hang out from time to time. Check us out if you want to become a contributor!
 * Feature Roadmap
 
