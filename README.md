@@ -24,8 +24,8 @@ npm install videoweaver [features]
 Note: No flags defaults to downloading package with all features
 
 Ex. npm install videoweaver -mcv  
-&emsp;&emsp;npm install videoweaver -s  
-&emsp;&emsp;npm install videoweaver  // installs all features
+&emsp;&ensp;npm install videoweaver -s  
+&emsp;&ensp;npm install videoweaver  // installs all features
     
 All you need to do next is to instantiate VideoWeaverPanel, host your project, and you're ready to start video editing!
 
