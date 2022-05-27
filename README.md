@@ -29,7 +29,7 @@ Ex. npm install videoweaver -mcv
     
 All you need to do next is to instantiate VideoWeaverPanel, host your project, and you're ready to start video editing!
 
-You'll notice that you can import very basic features that can be channelled towards making a completely different product; this is to yield as many use cases from VideoWeaver as possible.
+You'll notice that you can import very basic features that can be channelled towards developing a completely different product; this is to yield as many use cases from VideoWeaver as possible.
     
 ## Contributing
 
