@@ -24,3 +24,7 @@ Examples of unacceptable behavior by participants include:
 Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
 Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+
+## Attribution
+
+This Code of Conduct is adapted from ReactJS's [code of conduct](https://github.com/facebook/react/blob/main/CODE_OF_CONDUCT.md), which is itself adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
