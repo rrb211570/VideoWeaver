@@ -9,7 +9,7 @@ In the spirit of creating a positive and productive environment, we pledge to:
     Affirm the presence of others, welcoming the viewpoints/experiences they hold
     Pursue mature and thoughtful communication, as befits a professional setting
     Gracefully accept constructive criticism
-    Respect others' time by only asking questions when preliminary research using Google, Stack Overflow, and Reddit has not provided a sufficient answer
+    Respect others' time by only asking questions when preliminary research using the Internet has not provided a sufficient answer
 
 Examples of unacceptable behavior by participants include:
 
