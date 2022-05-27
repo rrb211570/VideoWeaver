@@ -16,7 +16,7 @@ npm install videoweaver [features]
 
 [features]:  
 -m : MomentMaker  
--c : Content editor
+-c : Content editor  
 -v : video editor  
 -s : API's to upload/download from storage  
 -y : API to upload to YouTube channel  
