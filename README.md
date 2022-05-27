@@ -1,7 +1,7 @@
 # VideoWeaver [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 VideoWeaver is a React component that allows you to do video editing.
-* MomentMaker: Can record screen and capture audio input to produce a video (useful for making tech demos and LeetCode VOD review)
+* MomentMaker: Can record screen and capture audio input to produce a video (useful for doing  LeetCode VOD review)
 * Content editing stage: Edit individual video, picture, and audio files
 * Video editing stage: Combine different media sources into an output video
 * API's to download/upload content via Drive, Dropbox, and desktop
