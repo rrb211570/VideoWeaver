@@ -33,9 +33,9 @@ You'll notice that you can import very basic features that can be channelled tow
     
 ## Contributing
 
-We expect contributors to adhere to the [code of conduct]. 
+We expect contributors to adhere to the [code of conduct](https://github.com/rrb211570/VideoWeaver/blob/main/CodeOfConduct.md). 
 
-Check out our [contributing guide] to learn more about our process and how you can become a contributor.
+Check out our [contributing guide](https://github.com/rrb211570/VideoWeaver/blob/main/ContributingGuide.md) to learn more about our process and how you can become a contributor.
 
 * Discord: We're using this to coordinate development, and hang out from time to time. Check us out if you want to become a contributor!
 * Feature Roadmap
