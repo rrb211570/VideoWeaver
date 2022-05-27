@@ -26,10 +26,10 @@ Note: No flags will default to include all features
 Ex. npm install videoweaver -mcv  
 &emsp;&ensp;npm install videoweaver -s  
 &emsp;&ensp;npm install videoweaver  // installs all features
-    
-All you need to do next is to instantiate VideoWeaverPanel, host your project, and you're ready to start video editing!
 
-You'll notice that you can import very basic features that can be channelled towards developing a completely different product; this is to yield as many use cases from VideoWeaver as possible.
+We're trying to yield as many use cases for VideoWeaver as possible, so you'll notice that you can import very basic features, that you can incorporate into a completely different product.
+
+All that's left is to instantiate VideoWeaverPanel, host your project, and you're ready to start video editing!
     
 ## Contributing
 
