@@ -1,9 +1,6 @@
 # Contributing Guide
 
-* Feature Roadmap
-* Good first issues
-
-# How to become a contributor
+## How to become a contributor
 
 All work on VideoWeaver happens directly on this repo. We're using Discord to coordinate development with a feature roadmap and schedule. If you're interested in becoming a contributor, come join our channel!
 
