@@ -29,7 +29,9 @@ Ex. npm install videoweaver -mcv
 
 We're trying to yield as many use cases for VideoWeaver as possible, so you can mix and match based on your needs.
 
-All that's left is to instantiate VideoWeaverPanel, host your project, and you're ready to start video editing!
+## Documentation
+
+See [documentation] to learn more about the current architecture, supported feature-set, code organization, and how to reuse upload/download functionalities.
     
 ## Contributing
 
