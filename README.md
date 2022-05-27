@@ -21,7 +21,7 @@ npm install videoweaver [features]
 -s : API's to upload/download from storage  
 -y : API to upload to YouTube channel  
 
-Note: No flags defaults to downloading package with all features
+Note: No flags will default to include all features
 
 Ex. npm install videoweaver -mcv  
 &emsp;&ensp;npm install videoweaver -s  
