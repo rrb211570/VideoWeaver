@@ -27,4 +27,4 @@ Project maintainers have the right and responsibility to remove, edit, or reject
 
 ## Attribution
 
-This Code of Conduct is adapted from ReactJS's [code of conduct](https://github.com/facebook/react/blob/main/CODE_OF_CONDUCT.md), which is itself adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+This Code of Conduct is adapted from ReactJS's [code of conduct](https://github.com/facebook/react/blob/main/CODE_OF_CONDUCT.md), which is itself adapted from the Contributor Covenant, [version 1.4](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).
