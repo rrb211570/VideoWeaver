@@ -15,11 +15,11 @@ You can import VideoWeaver into an existing React project, by using npm.
 npm install videoweaver [features]
 
 [features]:
--m : MomentMaker
--c : Content editor
--v : video editor
--s : API's to upload/download from storage
--y : API to upload to YouTube channel
+-m : MomentMaker  
+-c : Content editor  
+-v : video editor  
+-s : API's to upload/download from storage  
+-y : API to upload to YouTube channel  
 
 Note: No flags defaults to downloading package with all features
 
